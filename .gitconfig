@@ -1,0 +1,16 @@
+[user]
+	email = 59487andy@gmail.com
+	name = finch185277
+[alias]
+	l = log --oneline --graph
+	lp = log -p
+	cm = commit
+	cmm = commit --amend
+	cmmn = commit --amend --no-edit
+	co = checkout
+	st = status
+	rb = rebase
+	roh = reset ORIG_HEAD --hard
+	ls = log --oneline --graph --pretty=format:\"%h <%an> %ar %s\"
+[core]
+	editor = vim
